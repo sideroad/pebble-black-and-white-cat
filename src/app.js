@@ -31,7 +31,7 @@ main.add(
 // Colon
 main.add(
   new UI.TimeText({
-    position: new Vector2(67, 30),
+    position: new Vector2(67, 28),
     size: new Vector2(50, 42),
     font: 'bitham-34-medium-numbers',
     text: ':',
@@ -44,7 +44,7 @@ main.add(
 // Minutes
 main.add(
   new UI.TimeText({
-    position: new Vector2(95, 31),
+    position: new Vector2(97, 31),
     size: new Vector2(50, 42),
     font: 'bitham-34-medium-numbers',
     text: '%M',
