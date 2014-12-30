@@ -3,43 +3,41 @@
     "capabilities": [
         ""
     ],
-    "companyName": "sideroad.jp@gmail.com",
+    "companyName": "sideroad",
     "longName": "Black And White Cat",
-    "projectType": "pebblejs",
+    "projectType": "native",
     "resources": {
         "media": [
             {
-                "file": "images/menu_icon.png",
-                "menuIcon": true,
-                "name": "IMAGE_MENU_ICON",
-                "type": "png"
+                "characterRegex": "[0-9:a-zA-Z]",
+                "file": "fonts/AniTypewriter.ttf",
+                "name": "FONT_26",
+                "type": "font"
             },
             {
-                "file": "images/logo_splash.png",
-                "name": "IMAGE_LOGO_SPLASH",
-                "type": "png"
+                "characterRegex": "[0-9:a-zA-Z]",
+                "file": "fonts/AniTypewriter.ttf",
+                "name": "FONT_22",
+                "type": "font"
             },
             {
-                "file": "images/tile_splash.png",
-                "name": "IMAGE_TILE_SPLASH",
-                "type": "png"
-            },
-            {
-                "file": "fonts/UbuntuMono-Regular.ttf",
-                "name": "MONO_FONT_14",
+                "characterRegex": "[0-9:a-zA-Z]",
+                "file": "fonts/AniTypewriter.ttf",
+                "name": "FONT_38",
                 "type": "font"
             },
             {
                 "file": "images/cat.png",
-                "name": "IMAGES_CAT_PNG",
+                "menuIcon": true,
+                "name": "CAT",
                 "type": "png"
             }
         ]
     },
-    "shortName": "Black And White Cat",
+    "shortName": "B/W Cat",
     "uuid": "358c4c0c-5053-4656-86f8-5dbce4a3ff51",
     "versionCode": 1,
-    "versionLabel": "1.0",
+    "versionLabel": "1.1",
     "watchapp": {
         "watchface": true
     }
